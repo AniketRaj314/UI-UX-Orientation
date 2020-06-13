@@ -258,12 +258,9 @@ ul {
 .slide q strong {
     white-space: nowrap;
 }
+
 #slide12 h2 {
-    color: black;
-    position: absolute;
-    font-size: 40px;
-    top: 2.5em;
-    left: 6em;
+    font-size: 100px;
 }
 
 #slide2 h2{
