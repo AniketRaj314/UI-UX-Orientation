@@ -71,6 +71,10 @@ iframe {
     left: 0;
     width: 1280px;
     height: 720px;
+    opacity: 0.9;
+}
+
+iframe.bg {
     opacity: 0.3;
 }
 
@@ -247,6 +251,10 @@ option {
 ul {
     list-style-type: square;
 }
+
+li {
+    padding: 28px;
+}
 .slide q {
     display: block;
     font-size: 50px;
@@ -374,30 +382,6 @@ ul {
     height: 700px;
 }
 
-
-#slide3 h1 {
-    position: absolute;
-    font-size: 50px;
-    color: black;
-    left: 3em;
-    top: 2.2em;
-}
-
-#slide3 h2 {
-    color: black;
-    position: absolute;
-    top: 6em;
-    font-size: 45px;
-    line-height: 0.5em;
-}
-
-#slide3 h2.subtitle {
-    top: 14em;
-    font-size: 35px;
-    line-height: 1em;
-    opacity: 0.5;
-}
-
 #slide13 h1 {
     position: absolute;
     font-size: 50px;
@@ -470,53 +454,8 @@ ul {
     left: 6.4em;
 }
 
-#slide15 h2 {
-    color: black;
-    position: absolute;
-    font-size: 40px;
-    top: 3em;
-    left: 7.5em;
-}
-
-#slide15 h1.second {
-    position: absolute;
-    top: 10em;
-}
-
-#slide15 p.second {
-    color: black;
-    position: absolute;
-    font-size: 24px;
-    top: 17em;
-    left: 5em;
-}
-
-#slide15 h1.third {
-    position: absolute;
-    top: 14.5em;
-}
-
-#slide15 p.third {
-    color: black;
-    position: absolute;
-    font-size: 24px;
-    top: 23.5em;
-    left: 5em;
-}
-
-#slide15 p {
-    color: black;
-    position: absolute;
-    font-size: 24px;
-    top: 10em;
-    left: 5em;
-}
-
-#slide15 h1 {
-    color: black;
-    position: absolute;
-    font-size: 35px;
-    top: 5.2em;
+#slide3row.row {
+    height: 640px;
 }
 
 #slide14 ul{
@@ -525,15 +464,6 @@ ul {
 }
 
 #slide14 li {
-    padding: 32px;
-}
-
-#slide3 ul{
-    position: absolute;
-    top: 5em;
-}
-
-#slide3 li {
     padding: 32px;
 }
 
