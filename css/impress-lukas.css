@@ -229,6 +229,7 @@ a:focus {
     width: 50%;
     height: auto;
     border: 1px solid black;
+    border-radius: 50%;
 }
 
 #header h1 {
@@ -375,31 +376,12 @@ li {
 }
 
 #slide13.slide, #slide16.slide {
-    width: 700px;
-    height: 700px;
+    width: 720px;
+    height: 720px;
 }
 
-#slide13 h1 {
-    position: absolute;
-    font-size: 50px;
-    color: black;
-    left: 3em;
-    top: 2.2em;
-}
-
-#slide13 h2 {
-    color: black;
-    position: absolute;
-    top: 5em;
-    font-size: 45px;
-    line-height: 0.5em;
-}
-
-#slide13 h2.subtitle {
-    top: 14em;
-    font-size: 35px;
-    line-height: 1em;
-    opacity: 0.5;
+#contact.row {
+    height: 550px;
 }
 
 #slide4 h2 {
@@ -438,16 +420,6 @@ li {
 
 #slide14 li {
     padding: 32px;
-}
-
-
-#slide13 ul{
-    position: absolute;
-    top: 6em;
-}
-
-#slide13 li {
-    padding: 24px;
 }
 
 #leader q {
